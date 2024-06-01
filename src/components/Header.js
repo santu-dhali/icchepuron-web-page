@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { FaChevronDown } from 'react-icons/fa';
 import Button from "./Button";
+import logo from "../image/logo.png";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(null); // 'about', 'works', 'contact'
@@ -49,8 +50,9 @@ const Header = () => {
 
     return (
         <div className="flex justify-between items-center border-b border-gray-300">
-            <div className="logo-container">
-                <img className="logo w-[100px] ml-5" src="https://r2.erweima.ai/imgcompressed/compressed_fc147d6968e5f19612f90fecd0dd7283.webp" alt="Logo.." />
+            <div className="logo-container flex mt-8 ml-4">
+                <img className="logo w-[62px] ml-5 my-[6px]" src={logo} alt="Logo.." />
+                <span className="ml-3 mt-6 font-bold text-xl">IcchePuron</span>
             </div>
             <div className="nav-items mr-6">
                 <ul className="flex space-x-4">
