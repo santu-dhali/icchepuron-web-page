@@ -66,13 +66,13 @@ const Footer = () => {
                                     <hr className="mt-1 mb-2 border-gray-300" />
                                 </li>
                                 <li className="ml-1 flex items-center space-x-4">
-                                    <Link to="https://www.facebook.com" target="_blank" className="text-black hover:text-green-700">
+                                    <Link to="https://www.facebook.com/Icchepuron2019" target="_blank" className="text-black hover:text-green-700">
                                         <FaFacebook size={24} />
                                     </Link>
-                                    <Link to="https://www.instagram.com" target="_blank" className="text-black hover:text-green-700">
+                                    <Link to="https://www.instagram.com/_icchepuron_/" target="_blank" className="text-black hover:text-green-700">
                                         <FaInstagram size={24} />
                                     </Link>
-                                    <Link to="https://www.youtube.com" target="_blank" className="text-black hover:text-green-700">
+                                    <Link to="https://www.youtube.com/@-icchepuron9176" target="_blank" className="text-black hover:text-green-700">
                                         <FaYoutube size={24} />
                                     </Link>
                                 </li>
