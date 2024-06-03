@@ -106,6 +106,9 @@ const Header = () => {
                                     <Link to="/health" className="text-black hover:text-teal-500">Health</Link>
                                 </li>
                                 <li className="p-2 hover:bg-gray-100">
+                                    <Link to="/disaster" className="text-black hover:text-teal-500">Disaster Response</Link>
+                                </li>
+                                <li className="p-2 hover:bg-gray-100">
                                     <Link to="/cultural" className="text-black hover:text-teal-500">Cultural Program</Link>
                                 </li>
                                 <li className="p-2 hover:bg-gray-100">
