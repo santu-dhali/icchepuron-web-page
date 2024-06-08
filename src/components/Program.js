@@ -1,11 +1,11 @@
 const Program = ({ pdata }) => {
     return (
-        <div className="flex mb-4">
-            <div>
-                <img src={pdata.logo} alt={`${pdata.progName} logo`} className="w-12 h-12" />
+        <div className="flex mb-6 items-center">
+            <div className="mr-4 ">
+                {pdata.logo}
             </div>
-            <div className="ml-6 mr-3 text-left">
-                <h1 className="text-xl font-bold mb-2">{pdata.progName}</h1>
+            <div className="text-left">
+                <h1 className="text-xl font-bold mb-1">{pdata.progName}</h1>
                 <h4 className="text-md">{pdata.description}</h4>
             </div>
         </div>
