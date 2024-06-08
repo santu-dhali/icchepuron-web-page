@@ -79,9 +79,6 @@ const Header = () => {
                                 <li className="p-2 hover:bg-gray-100">
                                     <Link to="/members" className="text-black hover:text-teal-500">Members</Link>
                                 </li>
-                                <li className="p-2 hover:bg-gray-100">
-                                    <Link to="/impact" className="text-black hover:text-teal-500">Impact</Link>
-                                </li>
                             </ul>
                         )}
                     </li>
