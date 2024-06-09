@@ -1,0 +1,50 @@
+export const memberData = [
+    {
+        id: 1,
+        photo: 'https://via.placeholder.com/150',
+        name: "Santu Dhali",
+        role: "Vice-President",
+        dob: "26/08/2002",
+        address: "Nahata",
+    },
+    {
+        id: 2,
+        photo: 'https://via.placeholder.com/150',
+        name: "Santu Dhali",
+        role: "Vice-President",
+        dob: "26/08/2002",
+        address: "Nahata",
+    },
+    {
+        id: 3,
+        photo: 'https://via.placeholder.com/150',
+        name: "Santu Dhali",
+        role: "Vice-President",
+        dob: "26/08/2002",
+        address: "Nahata",
+    },
+    {
+        id: 4,
+        photo: 'https://via.placeholder.com/150',
+        name: "Santu Dhali",
+        role: "Vice-President",
+        dob: "26/08/2002",
+        address: "Nahata",
+    },
+    {
+        id: 5,
+        photo: 'https://via.placeholder.com/150',
+        name: "Santu Dhali",
+        role: "Vice-President",
+        dob: "26/08/2002",
+        address: "Nahata",
+    },
+    {
+        id: 6,
+        photo: 'https://via.placeholder.com/150',
+        name: "Santu Dhali",
+        role: "Vice-President",
+        dob: "26/08/2002",
+        address: "Nahata",
+    }
+]
