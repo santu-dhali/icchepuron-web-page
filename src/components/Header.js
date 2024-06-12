@@ -5,7 +5,7 @@ import Button from "./Button";
 import logo from "../image/logo.png";
 
 const Header = () => {
-    const [openMenu, setOpenMenu] = useState(null); // 'about', 'works', 'contact'
+    const [openMenu, setOpenMenu] = useState(null);
     const [timers, setTimers] = useState({});
 
     const handleMouseEnter = useCallback((menu) => {
@@ -114,28 +114,8 @@ const Header = () => {
                             </ul>
                         )}
                     </li>
-                    <li
-                        onMouseEnter={() => handleMouseEnter('contact')}
-                        onMouseLeave={() => handleMouseLeave('contact')}
-                        className="relative mt-4 hover:text-teal-500"
-                    >
-                        <div className="flex items-center cursor-pointer">
-                            <span>Contact Us</span>
-                            <FaChevronDown className="ml-1 mt-[0.25rem]" />
-                        </div>
-                        {openMenu === 'contact' && (
-                            <ul
-                                className="absolute top-full left-0 mt-1 w-40 shadow-lg border rounded"
-                                style={{ backgroundColor: '#F5F5DC' }}
-                            >
-                                <li className="p-2 hover:bg-gray-100">
-                                    <Link to="/contact-us" className="text-black hover:text-teal-500">Get In Touch</Link>
-                                </li>
-                                <li className="p-2 hover:bg-gray-100">
-                                    <Link to="/faq" className="text-black hover:text-teal-500">FAQ</Link>
-                                </li>
-                            </ul>
-                        )}
+                    <li onMouseEnter={handleMouseEnterOther} className="mt-4 hover:text-teal-500">
+                        <Link to="/contact">Contact Us</Link>
                     </li>
                     <li
                         onMouseEnter={handleMouseEnterOther}
